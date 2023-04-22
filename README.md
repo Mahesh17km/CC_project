@@ -9,9 +9,15 @@ This problem statement has the following objectives:
 
 #Description
 
-This is a simple Hotel Rooms management System which asks for Room number, name of the person staying in the room, phone number and email address of the person.
+This is a Hotel Rooms management System which takes in room number, name, phone number and email address of the customer and stores it to a database. 
 
-We can perform all the CRUD operations on this management system.
+CRUD operations can be performed on this database using the web app. 
+
+The frontend for the web app is made using React Js and deployed on an EC2 instance. 
+
+The backend is implemented using Express Js and MySQL.
+
+The MySQL server is running on aws RDS and we access it in the React app using an API call.
 
 #Installations
 1) Python version 2.6 and above
