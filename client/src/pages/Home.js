@@ -7,7 +7,7 @@ import axios from "axios";
 const Home = () => {
     const [data,setData]= useState([]);
     const loadData = async() => {
-        const response = await axios.get ("http://localhost:5000/api/get");
+        const response = await axios.get ("http://3.27.6.182:5000/api/get");
         setData(response.data);
     };
 
@@ -17,7 +17,7 @@ const Home = () => {
     
     const deleteRecord = (roomno) => {
         if(window.confirm("Are you sure you want to delete this record?")){
-            axios.delete('http://localhost:5000/api/remove/'+ roomno);
+            axios.delete('http://3.27.6.182:5000/api/remove/'+ roomno);
             toast.success("Contact Deleted Successfully");
             setTimeout(()=> loadData(), 500);
         }
