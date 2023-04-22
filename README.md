@@ -11,6 +11,7 @@ This uses Amazon aws services
 2) node.js and npm
 
 #Usage
+
 Step-01: Ensure that the 'Amazon RDS' has it's databse running and also check your EC2 instance is up and running.
 Step-02: Go to the client directory in command line and run "npm start"
 Step-03: Go to server directory and run "nodemon index.js"
