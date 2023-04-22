@@ -21,7 +21,7 @@ const AddEdit = () => {
             toast.error("Please provide value into each input field");
         }
         else {
-            axios.post("http://localhost:5000/api/post",{
+            axios.post("http://3.27.6.182:5000/api/post",{
                 roomno,name,email,phno
             }).then(() => {
                 setState({roomno:0,name:"",email:"",phno:""});
