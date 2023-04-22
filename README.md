@@ -20,4 +20,5 @@ Step-03: Go to server directory and run "nodemon index.js"
 
 
 A window will pop-up in your browser which will show about the 'Hotel Rooms management'.
+
 You can add,edit or delete entries.
