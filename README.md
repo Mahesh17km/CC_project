@@ -1,5 +1,13 @@
 # CC_project
 
+Deployment of Web App Using AWS Cloud
+
+This problem statement has the following objectives:
+
+Create web applications and seamlessly integrate them with cloud services for optimal performance and scalability.
+
+Acquire expertise in deploying databases to the cloud and harness the benefits of cloud-based data management for enhanced reliability, accessibility, and cost-efficiency.
+
 #Description
 
 This is a simple Hotel Rooms management System which asks for Room number, name of the person staying in the room, phone number and email address of the person.
