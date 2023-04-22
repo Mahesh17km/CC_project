@@ -2,7 +2,7 @@
 
 #Description
 
-This is a simple Hostel Rooms management System which asks for Room number, name of the person staying in the room, phone number and email address of the person.
+This is a simple Hotel Rooms management System which asks for Room number, name of the person staying in the room, phone number and email address of the person.
 We can perform all the CRUD operations on this management system.
 This uses Amazon aws services
 
