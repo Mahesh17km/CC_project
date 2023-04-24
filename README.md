@@ -31,7 +31,7 @@ Step-02: Go to the client directory in command line and run "npm start"
 
 Step-03: Go to server directory and run "nodemon index.js"
 
-Step-04: Paste this in any browser for the system to run "https://3.27.155.242:3000"
+Step-04: Paste this in any browser for the system to run "https://{Public IPv4 address}:3000"
 
 A window will pop-up in your browser which will show about the 'Hotel Rooms management'.
 
