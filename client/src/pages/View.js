@@ -9,7 +9,7 @@ const View = () => {
   const {id} = useParams();
 
   useEffect(()=> {
-    axios.get("http://3.27.6.182:5000/api/view/"+id+"")
+    axios.get("http://13.238.182.148:5000/api/view/"+id+"")
     .then((resp) => setUser({...resp.data[0]}));
   }, [id]);
   return (
