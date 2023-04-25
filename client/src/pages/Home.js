@@ -17,7 +17,7 @@ const Home = () => {
     
     const deleteRecord = (roomno) => {
         if(window.confirm("Are you sure you want to delete this record?")){
-            axios.delete('http://3.27.6.182:5000/api/remove/'+ roomno);
+            axios.delete('http://13.238.182.148:5000/api/remove/'+ roomno);
             toast.success("Contact Deleted Successfully");
             setTimeout(()=> loadData(), 500);
         }
