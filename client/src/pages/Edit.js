@@ -24,7 +24,7 @@ export const Edit = () => {
             toast.error("Please provide value into each input field");
         }
         else {
-            axios.put("http://3.27.6.182:5000/api/update",{
+            axios.put("http://13.238.182.148:5000/api/update",{
                 roomno,name,email,phno
             })
             .catch((err)=> toast.error(err.response.data));
